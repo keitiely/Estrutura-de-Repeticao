@@ -15,7 +15,7 @@ Lembrando que todo número primeiro é divisível apenas por 1 ou por ele mesmo.
             primo=0;
         } 
         else{
-            for (int i = 2; i <= sqrt(n); i++) {
+            for (int i = 2; i <= n/2; i++) {
                 if (n % i == 0) {
                     printf("O numero %d nao e primo\n", n);
                     primo=0;
@@ -27,7 +27,7 @@ Lembrando que todo número primeiro é divisível apenas por 1 ou por ele mesmo.
             printf("O numero %d e primo\n", n);
         }
 
-        
+
     }
 
 
