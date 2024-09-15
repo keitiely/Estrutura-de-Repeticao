@@ -56,7 +56,7 @@ int main(){
     num2 = num4;
     num3 = aux1;
     num4 = aux2;
-  printf("\tNumero discriptografado:  %d%d%d%d\t", num1, num2, num3, num4);
+  printf("\tNumero descriptografado:  %d%d%d%d\t", num1, num2, num3, num4);
 }
   else{
     printf("\tnumero inavlido, digite numero de quatro digitos!");
