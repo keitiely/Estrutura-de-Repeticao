@@ -17,6 +17,15 @@ Este repositório contém uma coleção de exercícios práticos e desafiadores 
     dado pela aproximação abaixo:
         cos(x)= 1 - xˆ2/2! + xˆ4/4! - xˆ6/6! + ....
     [Série de Taylor](https://github.com/keitiely/questoes/blob/main/Serie-de-Taylor)
+
+ - **Método de Heron**:
+   Um método para o cálculo de raiz quadradas de um número N já era conhecido pelos babilônios em...
+   bom, há muito tempo (também é conhecido como Método de Heron, um matemático grego que o descreveu 20 séculos depois, perto do ano 50 DC.
+   Começando com um valor inicial k (geralmente valendo 1), os babilônios geravam um novo valor de k de acordo com a regra:
+   A medida em que o processo é repetido, os novos valores de k se aproximam cada vez mais da raiz de N. Faça um programa que leia o valor de N 
+   e exiba os primeiros doze valores calculados com essa fórmula, verificando se eles realmente se aproximaram da raiz correta.
+             K = (K + N/K)/2
+   [Método de Heron](https://github.com/keitiely/Estrutura-de-Repeticao/blob/main/Metodo-de-Heron)
     
   - **Primo**:
     Faça um aplicativo que verifique se o número digitado n é um número primo. 
