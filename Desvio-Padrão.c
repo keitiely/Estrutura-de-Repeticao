@@ -1,4 +1,5 @@
-//Questao 2
+/*Questao 2 Implemente um algoritmo para calcular o desvio padrão δ
+de uma coleção de n números reais, usando a seguinte fórmula:*/
 #include <stdio.h>
 #include <math.h>
 int main(){
