@@ -1,4 +1,6 @@
-/*Questao 5-Faça um programa que calcule o valor aproximado de cos(x) pela série de Taylor, dado pela aproximação abaixo:*/
+/*Questao 5-Faça um programa que calcule o valor aproximado de cos(x) pela série de Taylor,
+dado pela aproximação abaixo:
+        cos(x)= 1 - xˆ2/2! + xˆ4/4! - xˆ6/6! + ....*/
 #include <stdio.h>
 #include <math.h>
 int main(){
